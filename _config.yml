@@ -1,0 +1,11 @@
+# Excluded files
+exclude:
+- README.md
+- LICENSE
+- CNAME
+
+# Permalinks
+permalink: pretty
+
+# Site info
+avatar: "https://avatars1.githubusercontent.com/u/996430"

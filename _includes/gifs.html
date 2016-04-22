@@ -1,0 +1,11 @@
+{% if site.data.gifs %}
+
+  <ul>
+    {% for gif in site.data.gifs %}
+      <li class="gif">
+        <img src="./gifs/{{gif.image}}.jpg" anim-src="./gifs/{{gif.image}}.gif" alt="{{gif.title}}">
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endif %}
